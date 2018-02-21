@@ -6,7 +6,7 @@ a piece of javascipt code that returns the Chinese lunar calendar dates for days
 
 First, include `lunar2018.js`.
 
-Then, call the function `lunar2018(M,D)` in your own scipt. It will return a string of the Chinese lunar calendar date.
+Then, call the function `lunar2018(M,D)` in your own script. It will return a string of the Chinese lunar calendar date.
 
 ## Function Syntax
 
