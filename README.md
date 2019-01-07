@@ -1,16 +1,16 @@
-# Lunar Dates 2018
+# Lunar Dates 2019
 
-a piece of javascipt code that returns the Chinese lunar calendar dates for days in 2018 (gregorian calendar).
+a piece of javascipt code that returns the Chinese lunar calendar dates for days in 2019 (gregorian calendar).
 
 ## Usage
 
-First, include `lunar2018.js`.
+First, include `lunar2019.js`.
 
-Then, call the function `lunar2018(M,D)` in your own script. It will return a string of the Chinese lunar calendar date.
+Then, call the function `lunar2019(M,D)` in your own script. It will return a string of the Chinese lunar calendar date.
 
 ## Function Syntax
 
-> lunar2018(M,D)
+> lunar2019(M,D)
 
 ### Parameters:
 * M: a **Number**, indicating the month of the gregorian date (1 to 12 for Jan to Dec). 
@@ -28,7 +28,7 @@ HTML
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript" src="lunar2018.js"></script>
+	<script type="text/javascript" src="lunar2019.js"></script>
 </head>
 <body>
 	...
@@ -40,6 +40,6 @@ HTML
 Javascript
 
 ```javascript
-var a=lunar2018(10,10);
-document.write(a); // Will output '戊戌年九月初二'.
+var a=lunar2019(10,10);
+document.write(a); // Will output '己亥年九月十二'.
 ```
