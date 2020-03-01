@@ -36,6 +36,8 @@ HTML
 </html>
 ```
 
+Javascript
+
 ```javascript
 const a=lunar2020.go(10,10);
 document.write(a); // Will output '庚子年八月廿四'.
