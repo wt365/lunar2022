@@ -1,16 +1,16 @@
-# Lunar Dates 2021
+# Lunar Dates 2022
 
-a piece of javascipt code that returns the Chinese lunar calendar dates for dates in 2021 (Gregorian calendar).
+a piece of javascript code that returns the Chinese lunar calendar dates for dates in 2022 (Gregorian calendar).
 
 ## Usage
 
-First, include `lunar2021.js`.
+First, include `lunar2022.js`.
 
-Then, call the function `lunar2021.go(M,D)` in your own script. It will return a string of the Chinese lunar calendar date.
+Then, call the function `lunar2022.go(M,D)` in your own script. It will return a string of the Chinese lunar calendar date.
 
 ## Function Syntax
 
-> lunar2021.go(M,D)
+> lunar2022.go(M,D)
 
 ### Parameters:
 * M: a **Number**, indicating the month of the Gregorian date (1 to 12 for Jan to Dec). 
@@ -29,7 +29,7 @@ HTML
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="text/javascript" src="lunar2021.js"></script>
+	<script type="text/javascript" src="lunar2022.js"></script>
 </head>
 <body>
 	<!-- your own content -->
@@ -40,6 +40,6 @@ HTML
 Javascript
 
 ```javascript
-const a=lunar2021.go(10,16);
-document.write(a); // Will output '辛丑年九月十一'.
+const a=lunar2022.go(10,16);
+document.write(a); // Will output '壬寅年九月廿一'.
 ```
