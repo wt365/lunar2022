@@ -1,5 +1,5 @@
-;// lunar2024.js by Tingyu
-const lunar2024 = (function () {
+;// lunar2025.js by Tingyu
+const lunar2025 = (function () {
 	function go (m = 1, d = 1) {if (checkMD(m, d)) {return MDtoLunar(m, d);} else {return 'Invalid Date';}}
 	function checkMD(m, d) {
 		if (/^(0?[1-9]|1[0-2])$/.test(m)) {
@@ -12,7 +12,7 @@ const lunar2024 = (function () {
 		} else {return false;}
 	}
 	function MDtoLunar(m, d) {
-		const C = [0, 31, 60, 91, 121, 152, 182, 213, 244, 274, 305, 335], L = [-19, 10, 40, 69, 99, 128, 157, 187, 216, 246, 276, 305, 335, 365], Lx=['冬', '腊', '正', '二', '三', '四', '五', '六', '七', '八', '九', '十', '冬', '腊'], n = C[m - 1] + d, ly = n > 40 ? '甲辰' : '癸卯';
+		const C = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334], L = [-1, 28, 58, 87, 117, 146, 175, 205, 234, 264, 293, 323, 353], Lx = ['腊', '正', '二', '三', '四', '五', '六', '闰六', '七', '八', '九', '十', '冬'], n = C[m - 1] + d, ly = n > 28 ? '乙巳' : '甲辰';
 		let i = L.length - 1;
 		while (n < L[i] + 1) {i--;}
 		const lm = Lx[i],ld = n - L[i];
